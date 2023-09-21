@@ -4,7 +4,7 @@ public class Printer {
     private int printedPages;
 
     public void append(String text) {
-        queue = queue + "\nДокумент без имени" + " - " + text;
+        queue = queue + "\nДок без имени" + " - " + text;
         pagesInQueue += 1;
     }
     public void append(String text, String name) {
